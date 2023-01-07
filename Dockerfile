@@ -1,4 +1,4 @@
-FROM python:3.11.1-buster
+FROM python:3.11.1-slim-buster
 
 LABEL org.opencontainers.image.description "Docker (base) image with Python 3.x with poetry"
 
