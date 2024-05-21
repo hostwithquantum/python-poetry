@@ -2,7 +2,7 @@ FROM python:3.12-slim
 
 LABEL org.opencontainers.image.description "Docker (base) image with Python 3.x with poetry"
 
-ARG POETRY_VERSION=1.7.0
+ARG POETRY_VERSION=1.8.3
 ARG POETRY_HOME=/opt/poetry
 
 # making this explicit
