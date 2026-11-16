@@ -1,4 +1,4 @@
-FROM python:3.14-slim
+FROM python:3.15-slim
 
 ARG POETRY_VERSION=2.3.2
 ARG POETRY_HOME=/opt/poetry
